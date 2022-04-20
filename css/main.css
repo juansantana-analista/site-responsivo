@@ -28,6 +28,7 @@ body{
     margin-left: 1%;
 }
 
+
 .bar #menu{
     display: flex;
     flex-direction: row;
@@ -42,12 +43,16 @@ body{
     
 }
 
+.bar #menu a:hover{
+    color: rgb(206, 215, 255);
+}
+
+
 .container{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
     font-family: 'Courier New', Courier, monospace;
     color: rgb(148, 148, 148);
 
@@ -70,6 +75,7 @@ body{
 
 .container img{
     max-height: 660px;
+    margin-top: 25px;
 }
 
 .container #designer{
